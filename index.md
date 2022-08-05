@@ -21,7 +21,7 @@
   - When services are enabled, ensure necessary management and mitigation
     - Whitelist IP adresses or MAC adapter IDs!
       - A jumpbox would work well for centralized access.
-    - Change the default TCP/UDP port to perhaps an ephemeral port, preferably higher range.
+    - Change the default TCP/UDP port to perhaps a dynamic or private port, preferably >49151.
   - Patch, patch, patch!
     - Centrally manage Windows updates, properly configure WSUS, or choose a provider such as ManageEngine.
 
